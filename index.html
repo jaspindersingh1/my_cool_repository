@@ -7,30 +7,96 @@
     
 </head>
 
+<style>
+
+/* this is how to comment in css. */
+
+body {
+    background-color: #efeee7;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+a {
+    color:red;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto; 
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+
+    float: left;
+}
+
+#main-bio{
+    width: 70%,
+}
+#contact-info{
+    width: 30%;
+}
+
+#bio-image{
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+
+</style>
+
 <body>
+    <header>
+         <h1>Student Bio</h1>
+    </header>
     
-    <h1>Student Bio</h1>
-    <h2>Jaspinder Singh</h2>
+    <div class="container">
 
-    <img src="https://via.placeholder.com/200x200" alt="Paradise">
+        <section id="main-bio">  
+            
+            <h2>Jaspinder Singh</h2>
 
-    <br>
+            <img src="https://via.placeholder.com/200x200" alt="picture" id="bio-image">
 
-    <p>Hello, my name is Jaspinder Singh or you can call me Jas. I am learning full stack web development through Columbia University.</p>
+            <p>Hello, my name is Jaspinder Singh or you can call me Jas. 
+                I am learning full stack web development through Columbia University. </p>
+        </section> 
+       
+        <section id="contact-info">
+             <h2>Contact Info</h2>
 
-    <strong><h3>Contact Info</h3></strong>
+             <ul>
+                <strong> <li>Email:</strong> <a href="jaspinders31@gmail.com">jaspinders31@gmail.com </a> </li> 
+                <strong> <li>Github:</strong> <a href="jaspindersingh1">jaspindersingh1 </a> </li>   
+                <strong> <li>Portfolio:</strong> <a href="coming_soon">coming_soon </a> </li>
+             </ul>
 
-    <ul>
-       <strong> <li>Email:</strong> <a href="jaspinders31@gmail.com">jaspinders31@gmail.com </a> </li> 
+        </section>
 
-       <strong> <li>Github:</strong> <a href="jaspindersingh1">jaspindersingh1 </a> </li>   
-       <strong> <li>Portfolio:</strong> <a href="coming_soon">coming_soon </a> </li>
-      </ul>
 
+    </div>
 
 </body>
-
-
 
 
 </html>
